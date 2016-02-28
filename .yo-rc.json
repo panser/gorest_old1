@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "goRest",
+    "packageName": "ua.org.gostroy.jhipsterapp",
+    "packageFolder": "ua/org/gostroy/jhipsterapp",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "gradle",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "3df3e1851109f0397050c5385e5673666e6ba887",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}

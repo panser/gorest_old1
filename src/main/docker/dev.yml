@@ -1,0 +1,7 @@
+gorest-dev-mongodb:
+  container_name: gorest-dev-mongodb
+  image: mongo:3.0.7
+  # volumes:
+  #   - ~/volumes/jhipster/goRest/dev-mongodb/:/data/db/
+  ports:
+    - "27017:27017"

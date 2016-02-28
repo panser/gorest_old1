@@ -28,6 +28,7 @@ angular.module('gorestApp')
  */
     .constant('LANGUAGES', [
         'en', 'fr'
+        ,'ru'
         // jhipster-needle-006 - JHipster will add new languages here
     ]
 );

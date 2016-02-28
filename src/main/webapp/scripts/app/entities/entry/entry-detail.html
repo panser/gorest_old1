@@ -1,0 +1,46 @@
+
+<div>
+    <h2><span translate="gorestApp.entry.detail.title">Entry</span> {{entry.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="gorestApp.entry.title">Title</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{entry.title}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="gorestApp.entry.content">Content</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{entry.content}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="gorestApp.entry.date">Date</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{entry.date | date:'medium'}}</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

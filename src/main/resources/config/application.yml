@@ -24,21 +24,32 @@ spring:
             enabled: false
     thymeleaf:
         mode: XHTML
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: gostroy.list@gmail.com  #Replace this field with your Gmail username.
+        password: PolandWarsaw1200           #Replace this field with your Gmail password.
+        protocol: smtp
+        tls: true
+        properties.mail.smtp:
+            auth: true
+            starttls.enable: true
+            ssl.trust: smtp.gmail.com
     social:
         # see https://developers.google.com/+/web/signin/server-side-flow#step_1_create_a_client_id_and_client_secret
         google:
-            clientId: xxx
-            clientSecret: xxx
+            clientId: 624054256663-o6hu4pntclth7hrietgfq589f40a4mrj.apps.googleusercontent.com
+            clientSecret: NmSTAQA-rMeQReAjAXwY5Ml2
 
         # see https://developers.facebook.com/docs/facebook-login/v2.2
         facebook:
-            clientId: xxx
-            clientSecret: xxx
+            clientId: 1822844874609538
+            clientSecret: 4034ed6ac47831ddd77b768993b5f568
 
         # see https://apps.twitter.com/app/
         twitter:
-            clientId: xxx
-            clientSecret: xxx
+            clientId: 710560959874646016-MGcQOk9bvy2TZHWLhY60CItFEbJyiWs
+            clientSecret: xWxDTF8kkhzlGBGIWMyYsJjSzxfSQom3M9coBHcydH7YJ
 
         # jhipster-needle-add-social-configuration
 
